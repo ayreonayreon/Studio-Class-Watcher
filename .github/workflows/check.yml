@@ -1,1 +1,56 @@
+name: Check class availability
+
+on:
+  schedule:
+    # Cada 5 minutos. GitHub puede retrasarlo unos minutos en horas pico,
+    # pero para este caso de uso esta bien.
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}   # permite correrlo manualmente desde la pestaña Actions
+
+permissions:
+  contents: write   # necesario para poder commitear state.json de vuelta
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Run checker
+        env:
+          EZFIT_EMAIL: ${{ secrets.EZFIT_EMAIL }}
+          EZFIT_PASSWORD: ${{ secrets.EZFIT_PASSWORD }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python check_availability.py
+
+      - name: Subir screenshot de depuracion
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-screenshot
+          path: debug_screenshot.png
+          retention-days: 3
+          if-no-files-found: ignore
+
+      - name: Guardar estado actualizado
+        run: |
+          git config user.name "class-watcher-bot"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain state.json)" ]; then
+            git add state.json
+            git commit -m "chore: actualizar estado [skip ci]"
+            git push
+          fi
 
