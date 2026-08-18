@@ -13,6 +13,7 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 8   # si algo se cuelga, se cancela solo en vez de gastar minutos indefinidamente
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -23,6 +24,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
+        timeout-minutes: 5
+        env:
+          DEBIAN_FRONTEND: noninteractive
         run: |
           pip install -r requirements.txt
           playwright install --with-deps chromium
