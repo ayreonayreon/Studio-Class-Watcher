@@ -1,14 +1,32 @@
 {
-  "14083": {
-    "autobook": "1",
-    "available": false,
-    "class_date": "2026-08-21",
-    "class_id": "14083",
-    "class_time": "05:45:00",
-    "name": "Hybrid Lower Body (90 Min) Hybrid Lower Body",
-    "onclick": "addwaitlist(620237, this)",
+  "14080": {
+    "available": true,
+    "class_date": "2026-08-26",
+    "class_id": "14080",
+    "name": "Hybrid Full Body & Abs Hybrid Full Body & Abs",
+    "onclick": "bookspot(6652, 14080, 625733, this)",
     "room_id": "6652",
-    "spots_class": "spots-info-text text-warning",
-    "spots_text": "Quedan: 0"
+    "spots_class": "spots-info-text text-success",
+    "spots_text": "Quedan: 23"
+  },
+  "14083": {
+    "available": true,
+    "class_date": "2026-08-25",
+    "class_id": "14083",
+    "name": "Hybrid Lower Body (90 Min) Hybrid Lower Body",
+    "onclick": "bookspot(6652, 14083, 625724, this)",
+    "room_id": "6652",
+    "spots_class": "spots-info-text text-success",
+    "spots_text": "Quedan: 21"
+  },
+  "14086": {
+    "available": true,
+    "class_date": "2026-08-24",
+    "class_id": "14086",
+    "name": "Hybrid Upper Body (90 Min) Hybrid Upper Body",
+    "onclick": "bookspot(6652, 14086, 625715, this)",
+    "room_id": "6652",
+    "spots_class": "spots-info-text text-success",
+    "spots_text": "Quedan: 20"
   }
 }
