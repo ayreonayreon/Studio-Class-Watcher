@@ -11,22 +11,22 @@
   },
   "14083": {
     "available": true,
-    "class_date": "2026-08-25",
+    "class_date": "2026-08-28",
     "class_id": "14083",
     "name": "Hybrid Lower Body (90 Min) Hybrid Lower Body",
-    "onclick": "bookspot(6652, 14083, 625724, this)",
+    "onclick": "bookspot(6652, 14083, 626321, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-success",
-    "spots_text": "Quedan: 20"
+    "spots_text": "Quedan: 24"
   },
   "14086": {
     "available": true,
-    "class_date": "2026-08-24",
+    "class_date": "2026-08-27",
     "class_id": "14086",
     "name": "Hybrid Upper Body (90 Min) Hybrid Upper Body",
-    "onclick": "bookspot(6652, 14086, 625715, this)",
+    "onclick": "bookspot(6652, 14086, 626312, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-success",
-    "spots_text": "Quedan: 19"
+    "spots_text": "Quedan: 24"
   }
 }
