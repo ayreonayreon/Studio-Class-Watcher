@@ -21,10 +21,10 @@
   },
   "14086": {
     "available": true,
-    "class_date": "2026-08-27",
+    "class_date": "2026-08-31",
     "class_id": "14086",
     "name": "Hybrid Upper Body (90 Min) Hybrid Upper Body",
-    "onclick": "bookspot(6652, 14086, 626312, this)",
+    "onclick": "bookspot(6652, 14086, 626333, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-success",
     "spots_text": "Quedan: 24"
