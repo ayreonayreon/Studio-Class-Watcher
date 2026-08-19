@@ -7,7 +7,7 @@
     "onclick": "bookspot(6652, 14080, 625733, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-success",
-    "spots_text": "Quedan: 22"
+    "spots_text": "Quedan: 21"
   },
   "14083": {
     "available": true,
@@ -17,7 +17,7 @@
     "onclick": "bookspot(6652, 14083, 625724, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-success",
-    "spots_text": "Quedan: 21"
+    "spots_text": "Quedan: 20"
   },
   "14086": {
     "available": true,
@@ -27,6 +27,6 @@
     "onclick": "bookspot(6652, 14086, 625715, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-success",
-    "spots_text": "Quedan: 20"
+    "spots_text": "Quedan: 19"
   }
 }
