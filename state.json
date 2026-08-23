@@ -17,7 +17,7 @@
     "onclick": "bookspot(6652, 14083, 626321, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-warning",
-    "spots_text": "Quedan: 3"
+    "spots_text": "Quedan: 2"
   },
   "14086": {
     "available": true,
