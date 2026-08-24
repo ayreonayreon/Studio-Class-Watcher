@@ -14,10 +14,10 @@
     "class_date": "2026-08-28",
     "class_id": "14083",
     "name": "Hybrid Lower Body (90 Min) Hybrid Lower Body",
-    "onclick": "bookspot(6652, 14083, 626321, this)",
+    "onclick": "addwaitlist(626321, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-warning",
-    "spots_text": "Quedan: 1"
+    "spots_text": "Quedan: 0"
   },
   "14086": {
     "available": true,
