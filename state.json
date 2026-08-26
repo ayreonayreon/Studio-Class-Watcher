@@ -1,14 +1,4 @@
 {
-  "14080": {
-    "available": false,
-    "class_date": "2026-08-26",
-    "class_id": "14080",
-    "name": "Hybrid Full Body & Abs Hybrid Full Body & Abs",
-    "onclick": "addwaitlist(625733, this)",
-    "room_id": "6652",
-    "spots_class": "spots-info-text text-warning",
-    "spots_text": "Quedan: 0"
-  },
   "14083": {
     "available": false,
     "class_date": "2026-08-28",
