@@ -17,16 +17,16 @@
     "onclick": "bookspot(6652, 15578, 630665, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-warning",
-    "spots_text": "Quedan: 2"
+    "spots_text": "Quedan: 1"
   },
   "15579": {
     "available": false,
     "class_date": "2026-09-02",
     "class_id": "15579",
     "name": "Hybrid Full Body Hybrid Full Body & Abs",
-    "onclick": "bookspot(6652, 15579, 630676, this)",
+    "onclick": "addwaitlist(630676, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-warning",
-    "spots_text": "Quedan: 1"
+    "spots_text": "Quedan: 0"
   }
 }
