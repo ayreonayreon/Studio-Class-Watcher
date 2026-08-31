@@ -14,10 +14,10 @@
     "class_date": "2026-09-04",
     "class_id": "15578",
     "name": "Hybrid Lower Body Hybrid Lower Body",
-    "onclick": "addwaitlist(630665, this)",
+    "onclick": "bookspot(6652, 15578, 630665, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-warning",
-    "spots_text": "Quedan: 0"
+    "spots_text": "Quedan: 1"
   },
   "15579": {
     "available": false,
