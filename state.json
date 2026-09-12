@@ -7,7 +7,7 @@
     "onclick": "bookspot(6652, 15577, 638443, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-success",
-    "spots_text": "Quedan: 23"
+    "spots_text": "Quedan: 20"
   },
   "15578": {
     "available": true,
@@ -17,16 +17,6 @@
     "onclick": "bookspot(6652, 15578, 638453, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-success",
-    "spots_text": "Quedan: 23"
-  },
-  "15579": {
-    "available": true,
-    "class_date": "2026-09-16",
-    "class_id": "15579",
-    "name": "Hybrid Full Body (90 Min) Hybrid Full Body & Abs",
-    "onclick": "bookspot(6652, 15579, 638433, this)",
-    "room_id": "6652",
-    "spots_class": "spots-info-text text-success",
-    "spots_text": "Quedan: 23"
+    "spots_text": "Quedan: 21"
   }
 }
