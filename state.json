@@ -7,7 +7,7 @@
     "onclick": "bookspot(6652, 15577, 652776, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-warning",
-    "spots_text": "Quedan: 4"
+    "spots_text": "Quedan: 3"
   },
   "15578": {
     "available": false,
@@ -17,16 +17,16 @@
     "onclick": "bookspot(6652, 15578, 652786, this)",
     "room_id": "6652",
     "spots_class": "spots-info-text text-warning",
-    "spots_text": "Quedan: 8"
+    "spots_text": "Quedan: 7"
   },
   "15579": {
-    "available": true,
+    "available": false,
     "class_date": "2026-10-14",
     "class_id": "15579",
     "name": "Hybrid Full Body (90 Min) Hybrid Full Body 90 Min",
     "onclick": "bookspot(6652, 15579, 652766, this)",
     "room_id": "6652",
-    "spots_class": "spots-info-text text-success",
-    "spots_text": "Quedan: 10"
+    "spots_class": "spots-info-text text-warning",
+    "spots_text": "Quedan: 9"
   }
 }
