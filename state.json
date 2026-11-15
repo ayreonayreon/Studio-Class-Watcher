@@ -1,13 +1,13 @@
 {
   "15577": {
-    "available": true,
+    "available": false,
     "class_date": "2026-11-19",
     "class_id": "15577",
     "name": "Hybrid Upper Body (90 Min) Hybrid Upper Body (90 Min)",
     "onclick": "bookspot(6652, 15577, 667907, this)",
     "room_id": "6652",
-    "spots_class": "spots-info-text text-success",
-    "spots_text": "Quedan: 10"
+    "spots_class": "spots-info-text text-warning",
+    "spots_text": "Quedan: 9"
   },
   "15578": {
     "available": true,
